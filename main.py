@@ -25,3 +25,10 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+    def reverse(string):
+        string = string[::-1]
+        return string
+
+    print(reverse("test123"))
